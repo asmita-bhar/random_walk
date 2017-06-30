@@ -85,18 +85,4 @@ class Random_walker_history(Random_walker):
 	def get_visit(self):
 		return self.visit_status
 
-	'''def decision_to_proliferate(self,t):
-		self.decision = False
-		#print(self.decision)
-		c = self.hist_size - self.visit_status.count(1)
-		if(c>=t*self.hist_size):
-			for i in range(self.hist_size):
-				l = get_node_hist(self.hist_status[i])
-				if(len(l)>1):
-					self.decision = False
-					break
-				else:
-					self.decision = True
-			print(self.decision)
-		return self.decision'''
-
+	
